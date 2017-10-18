@@ -4,22 +4,10 @@
 	box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'proxima_nova_ltthin';
-    src: url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.eot');
-    src: url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff2') format('woff2'),
-         url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff') format('woff'),
-         url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf') format('truetype'),
-         url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#proxima_nova_ltthin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body{
 	background: #77c25b;
 	background: linear-gradient(to right, #77c25b, #64bd47);
-	font-family: 'proxima_nova_ltthin'
+	font-family: 'Helvetica', sans-serif;
 }
 
 #login{
@@ -39,7 +27,52 @@ body{
 }
 #login h1{
 	text-align: center;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 500;
+
+}
+#login h2{
+	text-align: center;
+	font-size: 16.5px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: #666;
+	font-weight: 200;
 }
 .login-form input{
-
+	display: block;
+	margin: 0 auto;
+	width: 325px;
+	height: 60px;
+	padding: 0 20px;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	border: none;
+	background: rgb(242,242,242);
+}
+.login-form input::placeholder{
+	color: rgb(190,190,190);
+}
+.login-form button{
+	display: block;
+	margin: 0 auto;
+	width: 325px;
+	height: 60px;
+	border: none;
+	font-size: 1.3em;
+	color: #fff;
+	background-color: #00b242;
+}
+#login p{
+	text-align: center;
+	color: rgb(190,190,190);
+	margin-top: 20px;
+	font-size: 14px;
+}
+#login a{
+	text-decoration: none;
+	color: #00b242;
 }
