@@ -5,15 +5,17 @@
 	box-sizing: border-box;
 }
 body{
-	background-color: #67be49;	
+	background: #77c25b;
+	background: linear-gradient(to right, #77c25b, #64bd47);
 }
 .form{
 	margin: 20vh auto;
 	width: 500px;
-	height: 450px;
+	height: auto;
 	padding-top: 50px;
+	padding-bottom: 50px;
 	background-color: #fff;
-	box-shadow: 2px 2px 30px rgba(0,0,0,.4);
+	box-shadow: 0px 5px 20px rgba(0,0,0,.4);
 }
 .campo{
 	padding: 0px 20px;
@@ -39,7 +41,18 @@ input::placeholder{
 	border: none;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: #fff;
 	cursor: pointer;
+}
+p{
+	text-align: center;
+	margin-top: 20px;
+	color: #a0a0a0;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	margin-left: 5px;
+	text-decoration: none;
+	color: #00b242;
 }
