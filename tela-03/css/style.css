@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #72a270;
+}
+.main-title{
+	text-align: center;
+}
+.perfil-status{
+	background-color: #1c2c4d;
+	padding: 10px 10px;
+}
+.rounded{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 1px solid #fff;
+}
+.perfil-status img{
+	width: 100px;
+}
