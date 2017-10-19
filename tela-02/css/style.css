@@ -3,13 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body{
 	background: #77c25b;
 	background: linear-gradient(to right, #77c25b, #64bd47);
 	font-family: 'Ubuntu', sans-serif;
 }
-
 #login{
 	display: block;	
 	width: 90%;
