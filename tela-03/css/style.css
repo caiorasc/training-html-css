@@ -12,6 +12,11 @@ body{
 }
 .main-title{
 	text-align: center;
+	color: #fff;
+	font-family: 'Ubuntu light', sans-serif;
+	font-weight: lighter;
+	margin: 20px 0;
+	font-size: 3.7em;
 }
 .perfil{
 	background-color: #fff;
@@ -43,6 +48,7 @@ body{
 }
 .perfil-username h1{
 	letter-spacing: .5px;
+	margin: 0;
 }
 .perfil-username h2{
 	text-transform: uppercase;
@@ -65,7 +71,6 @@ body{
 	display: inline-block;
 	margin: 0 auto;
 	width: 32%;
-	min-width: 77.5px;
 	color: #fff;
 	text-align: center;
 }
@@ -105,4 +110,17 @@ body{
 }
 .navegacao li:last-child{
 	border: none;
+}
+footer{
+	width: 90%;
+	max-width: 380px;
+	margin: 0 auto;
+}
+footer p{
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+	margin-top: 40px;
+	text-align: center;
 }
