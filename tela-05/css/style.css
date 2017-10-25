@@ -30,7 +30,7 @@ header{
 	color: #000;
 	font-weight: 400;
 }
-
+/*POSICIONAMENTO DO ÍCONE DO MENU*/
 .menu-icon{
 	position: absolute;
 	top: 23px;
@@ -40,6 +40,7 @@ header{
 	float: left;
 	cursor: pointer;
 }
+/*FORMATAÇÃO DO MENU HAMBURGUES*/
 .menu-icon span{
 	display: block;
 	width: 20px;
