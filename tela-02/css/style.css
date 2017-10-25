@@ -77,3 +77,6 @@ body{
 	text-decoration: none;
 	color: #00b242;
 }
+.list-itens li img{
+	width: 100%;
+}

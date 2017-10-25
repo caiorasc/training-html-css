@@ -104,14 +104,35 @@ header{
 }
 /*FORMATANDO OS ITENS DO CONTEÚDO PRINCIPAL*/
 .list-itens li{
+	position: relative;
 	width: 50%;
 	height: 130px;
 	float: left;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid rgba(210,210,210,.6);
 	background-color: rgba(0,0,0,.7);
 }
 .list-itens li:nth-child(2),
 .list-itens li:nth-child(4),
 .list-itens li:nth-child(6){
-	border-left: 1px solid #262624;
+	border-left: 1px solid rgba(210,210,210,.6);
+}
+.list-itens li img{
+	width: 35%;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+.list-itens li:nth-child(1) img{
+	top: 30%;
+}
+.list-itens h2{
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 70%;
+	text-align: center;
+	font-weight: 100;
+	font-size: 1.1em;
+	color: rgba(210,210,210,.6);
 }
