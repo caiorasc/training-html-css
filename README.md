@@ -1,1 +1,1 @@
-# training-html-css
+Exercícios do curso SENAI Code Experience, desenvolvidos com o intuíto de treinar html e css puro.
